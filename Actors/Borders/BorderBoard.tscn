@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=3 uid="uid://bb8xsn2q7i20y"]
+
+[ext_resource type="PackedScene" uid="uid://bp1ig0gwnbaby" path="res://Actors/Borders/BorderBoeard.glb" id="1_5gjrq"]
+[ext_resource type="Material" uid="uid://ceptve3yacjrw" path="res://Actors/Borders/BorderBoardMaterial.tres" id="2_hl5f2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wl2bp"]
+size = Vector3(5, 12, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_76bju"]
+size = Vector3(5, 12, 0.5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bgodi"]
+size = Vector3(5, 0.5, 12)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nq4jg"]
+size = Vector3(5, 0.5, 12)
+
+[node name="BorderBoard" type="Node3D"]
+
+[node name="BorderBoeard" parent="." instance=ExtResource("1_5gjrq")]
+
+[node name="BorderBoard" parent="BorderBoeard" index="0"]
+surface_material_override/0 = ExtResource("2_hl5f2")
+
+[node name="Left" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Left"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5.25)
+shape = SubResource("BoxShape3D_wl2bp")
+
+[node name="Right" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Right"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.25)
+shape = SubResource("BoxShape3D_76bju")
+
+[node name="Top" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Top"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.25, 0)
+shape = SubResource("BoxShape3D_bgodi")
+
+[node name="Bottom" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bottom"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.25, 0)
+shape = SubResource("BoxShape3D_nq4jg")
+
+[editable path="BorderBoeard"]

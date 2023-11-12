@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://btd82crfwaar0"]
+
+[ext_resource type="Shader" uid="uid://o8nr4aqnlaya" path="res://Actors/Brick/BrickBreakParticles.tres" id="1_3cwlx"]
+[ext_resource type="Material" uid="uid://uwqcjmbnikl6" path="res://Actors/Brick/BrickMaterial.tres" id="2_yykaj"]
+[ext_resource type="Script" path="res://Actors/Brick/BrickBreakParticles.cs" id="3_30c7t"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_se3ob"]
+shader = ExtResource("1_3cwlx")
+
+[sub_resource type="BoxMesh" id="BoxMesh_rcoy0"]
+material = ExtResource("2_yykaj")
+size = Vector3(0.1, 0.1, 0.1)
+
+[node name="BrickBreakParticles" type="GPUParticles3D"]
+emitting = false
+amount = 144
+lifetime = 2.0
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ShaderMaterial_se3ob")
+draw_pass_1 = SubResource("BoxMesh_rcoy0")
+script = ExtResource("3_30c7t")
+
+[connection signal="finished" from="." to="." method="_on_finished"]

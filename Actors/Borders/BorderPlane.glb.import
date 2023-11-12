@@ -1,0 +1,125 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dqsw0nlimr7qj"
+path="res://.godot/imported/BorderPlane.glb-8f2c0545c5d780229f6496b950b55c0a.scn"
+
+[deps]
+
+source_file="res://Actors/Borders/BorderPlane.glb"
+dest_files=["res://.godot/imported/BorderPlane.glb-8f2c0545c5d780229f6496b950b55c0a.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"nodes": {
+"PATH:Brick_001_cell": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_001": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_003": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_004": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_005": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_006": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_008": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_009": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_010": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_011": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_012": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_013": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_014": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_015": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_016": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_018": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_019": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_020": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_021": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_022": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_023": {
+"generate/physics": true,
+"physics/mask": 0
+},
+"PATH:Brick_001_cell_024": {
+"generate/physics": true,
+"physics/mask": 0
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

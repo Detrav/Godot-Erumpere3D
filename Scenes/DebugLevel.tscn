@@ -1,0 +1,50 @@
+[gd_scene load_steps=11 format=3 uid="uid://ctyjn0om0asja"]
+
+[ext_resource type="Script" path="res://Scenes/DebugLevel.cs" id="1_4epx4"]
+[ext_resource type="PackedScene" uid="uid://dww1seisiijou" path="res://Actors/Camera3dKeepAspect.tscn" id="1_p4mm5"]
+[ext_resource type="PackedScene" uid="uid://71tovkmq5sjf" path="res://Actors/Platform/Platform.tscn" id="2_er5af"]
+[ext_resource type="PackedScene" uid="uid://bb8xsn2q7i20y" path="res://Actors/Borders/BorderBoard.tscn" id="4_jfxog"]
+[ext_resource type="PackedScene" uid="uid://caro2jm7fuhw0" path="res://Actors/FallBorder/FallBorder.tscn" id="6_qers8"]
+[ext_resource type="PackedScene" uid="uid://ba73qbrkpsyce" path="res://Actors/MobileController/ControlMobile.tscn" id="7_jpfll"]
+[ext_resource type="PackedScene" uid="uid://8ouikcuoy1l1" path="res://Actors/MenuPause/MenuPause.tscn" id="8_kajii"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_i3r8e"]
+
+[sub_resource type="Sky" id="Sky_yppmd"]
+sky_material = SubResource("ProceduralSkyMaterial_i3r8e")
+
+[sub_resource type="Environment" id="Environment_dbdjd"]
+sky = SubResource("Sky_yppmd")
+
+[node name="DebugLevel" type="Node3D"]
+script = ExtResource("1_4epx4")
+
+[node name="Camera3dKeepAspect" parent="." instance=ExtResource("1_p4mm5")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 7.19196, 0, 0)
+environment = SubResource("Environment_dbdjd")
+current = true
+Ball = NodePath("")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3dKeepAspect"]
+transform = Transform3D(1, 1.35591e-08, 2.15616e-09, -1.35591e-08, 0.950673, 0.310195, 2.15616e-09, -0.310195, 0.950673, 0, 0, 0)
+shadow_enabled = true
+shadow_opacity = 0.7
+
+[node name="Platform" parent="." instance=ExtResource("2_er5af")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.25, -4.2, 0)
+
+[node name="BorderBoard" parent="." instance=ExtResource("4_jfxog")]
+
+[node name="FallBorder" parent="." instance=ExtResource("6_qers8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.25, -4.81, 0)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ControlMobile" parent="CanvasLayer" instance=ExtResource("7_jpfll")]
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="MenuPause" parent="CanvasLayer2" instance=ExtResource("8_kajii")]
+
+[node name="Bricks" type="Node3D" parent="."]

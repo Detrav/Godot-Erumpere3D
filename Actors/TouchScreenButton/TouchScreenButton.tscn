@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://dr83k4ws7em3u"]
+
+[ext_resource type="Script" path="res://Actors/TouchScreenButton/TouchScreenButton.cs" id="1_bn5yp"]
+[ext_resource type="Texture2D" uid="uid://btdxpwi8wotsp" path="res://UIKit/Btn01.png" id="2_geevc"]
+
+[node name="TouchScreenButton" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bn5yp")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_geevc")
+patch_margin_left = 48
+patch_margin_top = 48
+patch_margin_right = 48
+patch_margin_bottom = 48

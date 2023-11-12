@@ -1,0 +1,79 @@
+[gd_scene load_steps=7 format=3 uid="uid://ba73qbrkpsyce"]
+
+[ext_resource type="Script" path="res://Actors/MobileController/ControlMobile.cs" id="1_ycker"]
+[ext_resource type="PackedScene" uid="uid://dr83k4ws7em3u" path="res://Actors/TouchScreenButton/TouchScreenButton.tscn" id="2_7spjv"]
+[ext_resource type="Texture2D" uid="uid://cjjy64u4o0vxc" path="res://UIKit/Btn10.png" id="3_js0vp"]
+[ext_resource type="Texture2D" uid="uid://btdxpwi8wotsp" path="res://UIKit/Btn01.png" id="3_vniia"]
+[ext_resource type="Texture2D" uid="uid://clygu6brdxv7d" path="res://UIKit/Btn04.png" id="5_0ecu4"]
+[ext_resource type="Texture2D" uid="uid://dgato6h151v0r" path="res://UIKit/Btn07.png" id="6_ul0cu"]
+
+[node name="ControlMobile" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ycker")
+
+[node name="ButtonLeft" parent="." instance=ExtResource("2_7spjv")]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_right = 0.0
+offset_left = 32.0
+offset_top = -288.0
+offset_right = 288.0
+offset_bottom = -32.0
+grow_horizontal = 1
+grow_vertical = 0
+Normal = ExtResource("3_vniia")
+Pressed = ExtResource("3_js0vp")
+
+[node name="ButtonRight" parent="." instance=ExtResource("2_7spjv")]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+offset_left = -288.0
+offset_top = -288.0
+offset_right = -32.0
+offset_bottom = -32.0
+grow_horizontal = 0
+grow_vertical = 0
+Normal = ExtResource("3_vniia")
+Pressed = ExtResource("3_js0vp")
+
+[node name="ButtonStart" parent="." instance=ExtResource("2_7spjv")]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+offset_left = -576.0
+offset_top = -288.0
+offset_right = -320.0
+offset_bottom = -32.0
+grow_horizontal = 0
+grow_vertical = 0
+Normal = ExtResource("5_0ecu4")
+Pressed = ExtResource("6_ul0cu")
+
+[node name="Label" type="Label" parent="ButtonStart"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Start
+Fire"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="ButtonPressed" from="ButtonLeft" to="." method="_on_button_left_button_down"]
+[connection signal="ButtonReleased" from="ButtonLeft" to="." method="_on_button_left_button_up"]
+[connection signal="ButtonPressed" from="ButtonRight" to="." method="_on_button_right_button_down"]
+[connection signal="ButtonReleased" from="ButtonRight" to="." method="_on_button_right_button_up"]
+[connection signal="ButtonPressed" from="ButtonStart" to="." method="_on_button_start_button_down"]
+[connection signal="ButtonReleased" from="ButtonStart" to="." method="_on_button_start_button_up"]

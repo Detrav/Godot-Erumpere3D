@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://de22j2b3blpgx"]
+
+[ext_resource type="Script" path="res://Actors/Ball/Ball.cs" id="1_wwl2e"]
+[ext_resource type="PackedScene" uid="uid://cg7r53xsk2v1q" path="res://Actors/Ball/BallNormal.glb" id="2_4eh05"]
+[ext_resource type="Material" uid="uid://dqqpeygpo7faf" path="res://Actors/Ball/BallMaterial.tres" id="3_xd5u7"]
+[ext_resource type="AudioStream" uid="uid://fnbsftrxabs0" path="res://Sounds/hit.wav" id="4_tmipj"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_ku6gk"]
+radius = 0.2
+
+[sub_resource type="Shader" id="Shader_wg3iq"]
+code = "shader_type spatial;
+
+// Higher values are smaller width.
+uniform float outline_width : hint_range(0.0, 10.0, 0.1) = 5.0;
+
+uniform vec4 base_color : source_color = vec4(1.0);
+
+float fresnel(float amount, vec3 normal, vec3 view)
+{
+	return pow((1.0 - clamp(dot(normalize(normal), normalize(view)), 0.0, 1.0 )), amount);
+}
+
+void fragment()
+{
+	float basic_fresnel = fresnel(outline_width, NORMAL, VIEW);
+	basic_fresnel = step(0.5, basic_fresnel); //0.5 magic number seems to give the most intuitive control
+	ALBEDO = base_color.rgb - basic_fresnel;
+}"
+metadata/_edit_res_path = "res://Shaders/ToonShader.gdshader"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_atb3v"]
+render_priority = 0
+shader = SubResource("Shader_wg3iq")
+shader_parameter/outline_width = 5.0
+shader_parameter/base_color = Color(1, 1, 1, 1)
+
+[node name="Ball" type="CharacterBody3D"]
+collision_layer = 4
+collision_mask = 11
+script = ExtResource("1_wwl2e")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_ku6gk")
+
+[node name="BallNormal" parent="." instance=ExtResource("2_4eh05")]
+
+[node name="Ball" parent="BallNormal" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+material_override = ExtResource("3_xd5u7")
+surface_material_override/0 = SubResource("ShaderMaterial_atb3v")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_tmipj")
+
+[editable path="BallNormal"]

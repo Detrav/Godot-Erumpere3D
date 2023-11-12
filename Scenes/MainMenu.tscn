@@ -1,0 +1,155 @@
+[gd_scene load_steps=5 format=3 uid="uid://dqierugj2a3hk"]
+
+[ext_resource type="Script" path="res://Scenes/MainMenu.cs" id="1_t21j2"]
+[ext_resource type="PackedScene" uid="uid://dr83k4ws7em3u" path="res://Actors/TouchScreenButton/TouchScreenButton.tscn" id="2_bl5hw"]
+[ext_resource type="Texture2D" uid="uid://b1iteed60ggh3" path="res://UIKit/Btn02.png" id="3_8g2t6"]
+[ext_resource type="Texture2D" uid="uid://d1oe6k4nwe3fa" path="res://UIKit/Btn09.png" id="4_uhxhf"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_t21j2")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.392157)
+
+[node name="CenterContainer" type="CenterContainer" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect/CenterContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ColorRect/CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 64
+text = "Erumpere 3D"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BtnStart" parent="ColorRect/CenterContainer/VBoxContainer" instance=ExtResource("2_bl5hw")]
+custom_minimum_size = Vector2(512, 96)
+layout_mode = 2
+Normal = ExtResource("3_8g2t6")
+Pressed = ExtResource("4_uhxhf")
+
+[node name="Label" type="Label" parent="ColorRect/CenterContainer/VBoxContainer/BtnStart"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Start"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BtnEndlessMode" parent="ColorRect/CenterContainer/VBoxContainer" instance=ExtResource("2_bl5hw")]
+custom_minimum_size = Vector2(512, 96)
+layout_mode = 2
+Normal = ExtResource("3_8g2t6")
+Pressed = ExtResource("4_uhxhf")
+
+[node name="Label" type="Label" parent="ColorRect/CenterContainer/VBoxContainer/BtnEndlessMode"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Endless mode"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BtnExit" parent="ColorRect/CenterContainer/VBoxContainer" instance=ExtResource("2_bl5hw")]
+custom_minimum_size = Vector2(512, 96)
+layout_mode = 2
+Normal = ExtResource("3_8g2t6")
+Pressed = ExtResource("4_uhxhf")
+
+[node name="Label" type="Label" parent="ColorRect/CenterContainer/VBoxContainer/BtnExit"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Exit"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="ColorRect/CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="ColorRect/CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Best score: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CenterContainerLevels" type="CenterContainer" parent="ColorRect"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect/CenterContainerLevels"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="ColorRect/CenterContainerLevels/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 64
+text = "Choose Level"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="ColorRect/CenterContainerLevels/VBoxContainer"]
+layout_mode = 2
+columns = 5
+
+[node name="BtnBack" parent="ColorRect/CenterContainerLevels/VBoxContainer" instance=ExtResource("2_bl5hw")]
+custom_minimum_size = Vector2(512, 96)
+layout_mode = 2
+Normal = ExtResource("3_8g2t6")
+Pressed = ExtResource("4_uhxhf")
+
+[node name="Label" type="Label" parent="ColorRect/CenterContainerLevels/VBoxContainer/BtnBack"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Back"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="ButtonReleased" from="ColorRect/CenterContainer/VBoxContainer/BtnStart" to="." method="_on_btn_start_button_released"]
+[connection signal="ButtonReleased" from="ColorRect/CenterContainer/VBoxContainer/BtnEndlessMode" to="." method="_on_btn_endless_mode_button_released"]
+[connection signal="ButtonReleased" from="ColorRect/CenterContainer/VBoxContainer/BtnExit" to="." method="_on_btn_exit_button_released"]
+[connection signal="ButtonReleased" from="ColorRect/CenterContainerLevels/VBoxContainer/BtnBack" to="." method="_on_btn_back_button_released"]

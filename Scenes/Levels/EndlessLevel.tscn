@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://lj0g3bl5o8c2"]
+
+[ext_resource type="PackedScene" uid="uid://ctyjn0om0asja" path="res://Scenes/DebugLevel.tscn" id="1_2qo3t"]
+[ext_resource type="Script" path="res://Scenes/Levels/EndlessLevel.cs" id="2_4i62w"]
+
+[node name="EndlessLevel" instance=ExtResource("1_2qo3t")]
+script = ExtResource("2_4i62w")

@@ -1,0 +1,96 @@
+[gd_scene load_steps=4 format=3 uid="uid://hgpnyj63djq8"]
+
+[ext_resource type="PackedScene" uid="uid://dqsw0nlimr7qj" path="res://Actors/Borders/BorderPlane.glb" id="1_3uil2"]
+[ext_resource type="Script" path="res://Actors/Borders/BorderPlane.cs" id="2_igopx"]
+[ext_resource type="Material" uid="uid://drqw753s3lkce" path="res://Actors/Borders/BorderPlaneMaterial.tres" id="3_gsuje"]
+
+[node name="BorderPlane" instance=ExtResource("1_3uil2")]
+script = ExtResource("2_igopx")
+
+[node name="Brick_001_cell" parent="." index="0"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_001" parent="." index="1"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_003" parent="." index="2"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_004" parent="." index="3"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_005" parent="." index="4"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_006" parent="." index="5"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_008" parent="." index="6"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_009" parent="." index="7"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_010" parent="." index="8"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_011" parent="." index="9"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_012" parent="." index="10"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_013" parent="." index="11"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_014" parent="." index="12"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_015" parent="." index="13"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_016" parent="." index="14"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_018" parent="." index="15"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_019" parent="." index="16"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_020" parent="." index="17"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_021" parent="." index="18"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_022" parent="." index="19"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_023" parent="." index="20"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
+
+[node name="Brick_001_cell_024" parent="." index="21"]
+surface_material_override/0 = ExtResource("3_gsuje")
+surface_material_override/1 = ExtResource("3_gsuje")
