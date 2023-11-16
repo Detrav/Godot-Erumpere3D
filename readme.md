@@ -2,4 +2,4 @@
 
 A simple breakout game for mobile
 
-![](docs/demo.png)
+![](Docs/demo.png)
