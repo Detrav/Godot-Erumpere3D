@@ -1,0 +1,620 @@
+[gd_scene load_steps=4 format=3 uid="uid://clvltx8cxvaid"]
+
+[ext_resource type="PackedScene" uid="uid://ctyjn0om0asja" path="res://Scenes/DebugLevel.tscn" id="1_ljjfb"]
+[ext_resource type="Script" path="res://Scenes/Levels/Level05.cs" id="2_uip0q"]
+[ext_resource type="PackedScene" uid="uid://dp86w36nqdiiv" path="res://Actors/Brick/Brick.tscn" id="3_2335s"]
+
+[node name="Level_05" instance=ExtResource("1_ljjfb")]
+script = ExtResource("2_uip0q")
+
+[node name="Brick" parent="Bricks" index="0" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 0)
+
+[node name="Brick2" parent="Bricks" index="1" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 0)
+
+[node name="Brick3" parent="Bricks" index="2" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 0)
+
+[node name="Brick4" parent="Bricks" index="3" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 0)
+
+[node name="Brick5" parent="Bricks" index="4" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 0)
+
+[node name="Brick6" parent="Bricks" index="5" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 0)
+
+[node name="Brick7" parent="Bricks" index="6" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 0)
+
+[node name="Brick8" parent="Bricks" index="7" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 0)
+
+[node name="Brick9" parent="Bricks" index="8" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 0)
+
+[node name="Brick10" parent="Bricks" index="9" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 0)
+
+[node name="Brick11" parent="Bricks" index="10" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 0)
+
+[node name="Brick12" parent="Bricks" index="11" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 0)
+
+[node name="Brick13" parent="Bricks" index="12" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -1)
+
+[node name="Brick14" parent="Bricks" index="13" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -1)
+
+[node name="Brick15" parent="Bricks" index="14" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -1)
+
+[node name="Brick16" parent="Bricks" index="15" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -1)
+
+[node name="Brick17" parent="Bricks" index="16" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -1)
+
+[node name="Brick18" parent="Bricks" index="17" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -1)
+
+[node name="Brick19" parent="Bricks" index="18" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -1)
+
+[node name="Brick20" parent="Bricks" index="19" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -1)
+
+[node name="Brick21" parent="Bricks" index="20" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -1)
+
+[node name="Brick22" parent="Bricks" index="21" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -1)
+
+[node name="Brick23" parent="Bricks" index="22" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -1)
+
+[node name="Brick24" parent="Bricks" index="23" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -1)
+
+[node name="Brick25" parent="Bricks" index="24" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -2)
+
+[node name="Brick26" parent="Bricks" index="25" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -2)
+
+[node name="Brick27" parent="Bricks" index="26" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -2)
+
+[node name="Brick28" parent="Bricks" index="27" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -2)
+
+[node name="Brick29" parent="Bricks" index="28" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -2)
+
+[node name="Brick30" parent="Bricks" index="29" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -2)
+
+[node name="Brick31" parent="Bricks" index="30" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -2)
+
+[node name="Brick32" parent="Bricks" index="31" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -2)
+
+[node name="Brick33" parent="Bricks" index="32" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -2)
+
+[node name="Brick34" parent="Bricks" index="33" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -2)
+
+[node name="Brick35" parent="Bricks" index="34" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -2)
+
+[node name="Brick36" parent="Bricks" index="35" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -2)
+
+[node name="Brick37" parent="Bricks" index="36" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -3)
+
+[node name="Brick38" parent="Bricks" index="37" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -3)
+
+[node name="Brick39" parent="Bricks" index="38" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -3)
+
+[node name="Brick40" parent="Bricks" index="39" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -3)
+
+[node name="Brick41" parent="Bricks" index="40" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -3)
+
+[node name="Brick42" parent="Bricks" index="41" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -3)
+
+[node name="Brick43" parent="Bricks" index="42" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -3)
+
+[node name="Brick44" parent="Bricks" index="43" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -3)
+
+[node name="Brick45" parent="Bricks" index="44" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -3)
+
+[node name="Brick46" parent="Bricks" index="45" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -3)
+
+[node name="Brick47" parent="Bricks" index="46" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -3)
+
+[node name="Brick48" parent="Bricks" index="47" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -3)
+
+[node name="Brick49" parent="Bricks" index="48" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -4)
+
+[node name="Brick50" parent="Bricks" index="49" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -4)
+
+[node name="Brick51" parent="Bricks" index="50" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -4)
+
+[node name="Brick52" parent="Bricks" index="51" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -4)
+
+[node name="Brick53" parent="Bricks" index="52" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -4)
+
+[node name="Brick54" parent="Bricks" index="53" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -4)
+
+[node name="Brick55" parent="Bricks" index="54" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -4)
+
+[node name="Brick56" parent="Bricks" index="55" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -4)
+
+[node name="Brick57" parent="Bricks" index="56" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -4)
+
+[node name="Brick58" parent="Bricks" index="57" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -4)
+
+[node name="Brick59" parent="Bricks" index="58" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -4)
+
+[node name="Brick60" parent="Bricks" index="59" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -4)
+
+[node name="Brick61" parent="Bricks" index="60" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -0.5)
+
+[node name="Brick62" parent="Bricks" index="61" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -0.5)
+
+[node name="Brick63" parent="Bricks" index="62" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -0.5)
+
+[node name="Brick64" parent="Bricks" index="63" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -0.5)
+
+[node name="Brick65" parent="Bricks" index="64" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -0.5)
+
+[node name="Brick66" parent="Bricks" index="65" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -0.5)
+
+[node name="Brick67" parent="Bricks" index="66" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -0.5)
+
+[node name="Brick68" parent="Bricks" index="67" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -0.5)
+
+[node name="Brick69" parent="Bricks" index="68" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -0.5)
+
+[node name="Brick70" parent="Bricks" index="69" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -0.5)
+
+[node name="Brick71" parent="Bricks" index="70" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -0.5)
+
+[node name="Brick72" parent="Bricks" index="71" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -0.5)
+
+[node name="Brick73" parent="Bricks" index="72" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -1.5)
+
+[node name="Brick74" parent="Bricks" index="73" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -1.5)
+
+[node name="Brick75" parent="Bricks" index="74" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -1.5)
+
+[node name="Brick76" parent="Bricks" index="75" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -1.5)
+
+[node name="Brick77" parent="Bricks" index="76" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -1.5)
+
+[node name="Brick78" parent="Bricks" index="77" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -1.5)
+
+[node name="Brick79" parent="Bricks" index="78" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -1.5)
+
+[node name="Brick80" parent="Bricks" index="79" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -1.5)
+
+[node name="Brick81" parent="Bricks" index="80" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -1.5)
+
+[node name="Brick82" parent="Bricks" index="81" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -1.5)
+
+[node name="Brick83" parent="Bricks" index="82" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -1.5)
+
+[node name="Brick84" parent="Bricks" index="83" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -1.5)
+
+[node name="Brick85" parent="Bricks" index="84" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -2.5)
+
+[node name="Brick86" parent="Bricks" index="85" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -2.5)
+
+[node name="Brick87" parent="Bricks" index="86" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -2.5)
+
+[node name="Brick88" parent="Bricks" index="87" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -2.5)
+
+[node name="Brick89" parent="Bricks" index="88" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -2.5)
+
+[node name="Brick90" parent="Bricks" index="89" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -2.5)
+
+[node name="Brick91" parent="Bricks" index="90" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -2.5)
+
+[node name="Brick92" parent="Bricks" index="91" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -2.5)
+
+[node name="Brick93" parent="Bricks" index="92" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -2.5)
+
+[node name="Brick94" parent="Bricks" index="93" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -2.5)
+
+[node name="Brick95" parent="Bricks" index="94" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -2.5)
+
+[node name="Brick96" parent="Bricks" index="95" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -2.5)
+
+[node name="Brick97" parent="Bricks" index="96" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, -3.5)
+
+[node name="Brick98" parent="Bricks" index="97" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, -3.5)
+
+[node name="Brick99" parent="Bricks" index="98" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, -3.5)
+
+[node name="Brick100" parent="Bricks" index="99" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, -3.5)
+
+[node name="Brick101" parent="Bricks" index="100" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, -3.5)
+
+[node name="Brick102" parent="Bricks" index="101" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, -3.5)
+
+[node name="Brick103" parent="Bricks" index="102" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, -3.5)
+
+[node name="Brick104" parent="Bricks" index="103" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, -3.5)
+
+[node name="Brick105" parent="Bricks" index="104" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, -3.5)
+
+[node name="Brick106" parent="Bricks" index="105" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, -3.5)
+
+[node name="Brick107" parent="Bricks" index="106" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, -3.5)
+
+[node name="Brick108" parent="Bricks" index="107" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, -3.5)
+
+[node name="Brick109" parent="Bricks" index="108" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 4)
+
+[node name="Brick110" parent="Bricks" index="109" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 4)
+
+[node name="Brick111" parent="Bricks" index="110" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 4)
+
+[node name="Brick112" parent="Bricks" index="111" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 4)
+
+[node name="Brick113" parent="Bricks" index="112" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 4)
+
+[node name="Brick114" parent="Bricks" index="113" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 4)
+
+[node name="Brick115" parent="Bricks" index="114" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 4)
+
+[node name="Brick116" parent="Bricks" index="115" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 4)
+
+[node name="Brick117" parent="Bricks" index="116" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 4)
+
+[node name="Brick118" parent="Bricks" index="117" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 4)
+
+[node name="Brick119" parent="Bricks" index="118" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 4)
+
+[node name="Brick120" parent="Bricks" index="119" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 4)
+
+[node name="Brick121" parent="Bricks" index="120" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 3)
+
+[node name="Brick122" parent="Bricks" index="121" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 3)
+
+[node name="Brick123" parent="Bricks" index="122" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 3)
+
+[node name="Brick124" parent="Bricks" index="123" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 3)
+
+[node name="Brick125" parent="Bricks" index="124" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 3)
+
+[node name="Brick126" parent="Bricks" index="125" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 3)
+
+[node name="Brick127" parent="Bricks" index="126" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 3)
+
+[node name="Brick128" parent="Bricks" index="127" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 3)
+
+[node name="Brick129" parent="Bricks" index="128" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 3)
+
+[node name="Brick130" parent="Bricks" index="129" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 3)
+
+[node name="Brick131" parent="Bricks" index="130" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 3)
+
+[node name="Brick132" parent="Bricks" index="131" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 3)
+
+[node name="Brick133" parent="Bricks" index="132" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 2)
+
+[node name="Brick134" parent="Bricks" index="133" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 2)
+
+[node name="Brick135" parent="Bricks" index="134" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 2)
+
+[node name="Brick136" parent="Bricks" index="135" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 2)
+
+[node name="Brick137" parent="Bricks" index="136" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 2)
+
+[node name="Brick138" parent="Bricks" index="137" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 2)
+
+[node name="Brick139" parent="Bricks" index="138" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 2)
+
+[node name="Brick140" parent="Bricks" index="139" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 2)
+
+[node name="Brick141" parent="Bricks" index="140" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 2)
+
+[node name="Brick142" parent="Bricks" index="141" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 2)
+
+[node name="Brick143" parent="Bricks" index="142" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 2)
+
+[node name="Brick144" parent="Bricks" index="143" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 2)
+
+[node name="Brick145" parent="Bricks" index="144" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 1)
+
+[node name="Brick146" parent="Bricks" index="145" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 1)
+
+[node name="Brick147" parent="Bricks" index="146" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 1)
+
+[node name="Brick148" parent="Bricks" index="147" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 1)
+
+[node name="Brick149" parent="Bricks" index="148" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 1)
+
+[node name="Brick150" parent="Bricks" index="149" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 1)
+
+[node name="Brick151" parent="Bricks" index="150" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 1)
+
+[node name="Brick152" parent="Bricks" index="151" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 1)
+
+[node name="Brick153" parent="Bricks" index="152" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 1)
+
+[node name="Brick154" parent="Bricks" index="153" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 1)
+
+[node name="Brick155" parent="Bricks" index="154" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 1)
+
+[node name="Brick156" parent="Bricks" index="155" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 1)
+
+[node name="Brick157" parent="Bricks" index="156" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 3.5)
+
+[node name="Brick158" parent="Bricks" index="157" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 3.5)
+
+[node name="Brick159" parent="Bricks" index="158" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 3.5)
+
+[node name="Brick160" parent="Bricks" index="159" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 3.5)
+
+[node name="Brick161" parent="Bricks" index="160" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 3.5)
+
+[node name="Brick162" parent="Bricks" index="161" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 3.5)
+
+[node name="Brick163" parent="Bricks" index="162" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 3.5)
+
+[node name="Brick164" parent="Bricks" index="163" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 3.5)
+
+[node name="Brick165" parent="Bricks" index="164" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 3.5)
+
+[node name="Brick166" parent="Bricks" index="165" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 3.5)
+
+[node name="Brick167" parent="Bricks" index="166" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 3.5)
+
+[node name="Brick168" parent="Bricks" index="167" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 3.5)
+
+[node name="Brick169" parent="Bricks" index="168" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 2.5)
+
+[node name="Brick170" parent="Bricks" index="169" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 2.5)
+
+[node name="Brick171" parent="Bricks" index="170" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 2.5)
+
+[node name="Brick172" parent="Bricks" index="171" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 2.5)
+
+[node name="Brick173" parent="Bricks" index="172" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 2.5)
+
+[node name="Brick174" parent="Bricks" index="173" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 2.5)
+
+[node name="Brick175" parent="Bricks" index="174" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 2.5)
+
+[node name="Brick176" parent="Bricks" index="175" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 2.5)
+
+[node name="Brick177" parent="Bricks" index="176" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 2.5)
+
+[node name="Brick178" parent="Bricks" index="177" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 2.5)
+
+[node name="Brick179" parent="Bricks" index="178" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 2.5)
+
+[node name="Brick180" parent="Bricks" index="179" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 2.5)
+
+[node name="Brick181" parent="Bricks" index="180" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 1.5)
+
+[node name="Brick182" parent="Bricks" index="181" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 1.5)
+
+[node name="Brick183" parent="Bricks" index="182" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 1.5)
+
+[node name="Brick184" parent="Bricks" index="183" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 1.5)
+
+[node name="Brick185" parent="Bricks" index="184" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 1.5)
+
+[node name="Brick186" parent="Bricks" index="185" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 1.5)
+
+[node name="Brick187" parent="Bricks" index="186" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 1.5)
+
+[node name="Brick188" parent="Bricks" index="187" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 1.5)
+
+[node name="Brick189" parent="Bricks" index="188" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 1.5)
+
+[node name="Brick190" parent="Bricks" index="189" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 1.5)
+
+[node name="Brick191" parent="Bricks" index="190" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 1.5)
+
+[node name="Brick192" parent="Bricks" index="191" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 1.5)
+
+[node name="Brick193" parent="Bricks" index="192" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.5, 0.5)
+
+[node name="Brick194" parent="Bricks" index="193" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 1.75, 0.5)
+
+[node name="Brick195" parent="Bricks" index="194" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2, 0.5)
+
+[node name="Brick196" parent="Bricks" index="195" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.25, 0.5)
+
+[node name="Brick197" parent="Bricks" index="196" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.5, 0.5)
+
+[node name="Brick198" parent="Bricks" index="197" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 2.75, 0.5)
+
+[node name="Brick199" parent="Bricks" index="198" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3, 0.5)
+
+[node name="Brick200" parent="Bricks" index="199" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.25, 0.5)
+
+[node name="Brick201" parent="Bricks" index="200" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.5, 0.5)
+
+[node name="Brick202" parent="Bricks" index="201" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 3.75, 0.5)
+
+[node name="Brick203" parent="Bricks" index="202" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4, 0.5)
+
+[node name="Brick204" parent="Bricks" index="203" instance=ExtResource("3_2335s")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.25, 4.25, 0.5)

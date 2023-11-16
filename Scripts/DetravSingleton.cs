@@ -49,6 +49,7 @@ namespace Erumpere3D.Scripts
             Levels.Add((2, "res://Scenes/Levels/Level02.tscn"));
             Levels.Add((3, "res://Scenes/Levels/Level03.tscn"));
             Levels.Add((4, "res://Scenes/Levels/Level04.tscn"));
+            Levels.Add((5, "res://Scenes/Levels/Level05.tscn"));
 
         }
         private int score;

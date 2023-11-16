@@ -15,7 +15,7 @@ public partial class DebugLevel : Node3D
         bricks = GetNode<Node>("Bricks");
         FillLevel();
 
-
+        DetravSingleton.Instance.RestartLevel();
         SpawnBall();
     }
 

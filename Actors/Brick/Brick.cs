@@ -70,6 +70,7 @@ public partial class Brick : StaticBody3D
                 var p = Particles.Instantiate<BrickBreakParticles>();
                 GetParent().AddChild(p);
                 p.Position = Position;
+                p.Scale = Scale;
             }
             var buffType = BuffType;
             if (buffType ==  BuffType.None)
